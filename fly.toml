@@ -1,0 +1,10 @@
+app = "voyager-telegraf"
+primary_region = "cdg"
+kill_signal = "SIGINT"
+kill_timeout = "5s"
+
+[experimental]
+  auto_rollback = true
+
+[[vm]]
+  size = 'shared-cpu-1x'
